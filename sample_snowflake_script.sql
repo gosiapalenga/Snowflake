@@ -1,0 +1,8 @@
+USE ROLE SYSADMIN;          
+USE WAREHOUSE compute_wh;   
+USE DATABASE dev_landing;
+USE SCHEMA public;
+
+SELECT * 
+FROM FLIGHT_DETAILS
+LIMIT 10;
